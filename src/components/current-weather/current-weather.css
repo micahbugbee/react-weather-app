@@ -4,7 +4,7 @@
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: white;
     background-color: #333;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
 }
 
 .top,
@@ -21,19 +21,20 @@
     line-height: 1;
     margin: 0;
     letter-spacing: 1px;
+    padding: 5px;
 }
 
 .weather-description {
     font-weight: 400;
     font-size: 14;
     line-height: 1;
-    margin: 0;
+    margin: 5px;
 }
 
 .weather-icon {
     width: 80px;
     height: 80px;
-    padding-right: 23px;
+    padding-right: 20px;
 }
 
 .temperature {
@@ -51,6 +52,7 @@
 .parameter-row {
     display: flex;
     justify-content: space-between;
+    padding: 1px;
 }
 
 .parameter-label {
